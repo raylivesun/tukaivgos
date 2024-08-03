@@ -26,7 +26,7 @@ int main() {
     printf("Number of words: %d\n", wordCount);
     printf("Words in reverse order:\n");
     for (i = wordCount - 1; i >= 0; i--) {
-        printf("%s ", words);
+         i++;
     }
     printf("\n");
 
